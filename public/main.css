@@ -2,17 +2,26 @@
 :root {
  font-size: 18px;
 }
+
 * {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
 }
+
 a {
  text-decoration: none;
  color: #444;
 }
+
 a:hover {
  color: tomato;
+}
+
+.content,
+.header {
+	 max-width: 1000px;
+     margin:0 auto;
 }
 .header{
  display: flex;
@@ -23,7 +32,62 @@ a:hover {
 .nav > a {
  display: inline-block;
  padding: 10px 20px;
+ font-size: 1.5rem;
+
 }
 .logo {
  padding: 10px 20px;
+ font-size: 4rem;
+ color: tomato;
+}
+
+/*Home pages styles*/
+.content-title {
+	margin-top: 15px;
+	padding: 20px 0 0 20px;
+	font-size: 3.5rem;
+
+}
+
+.featured {
+	display: inline-block;
+	margin: 15px 0 0 20px;
+	padding: 10px 20px;
+	background: tomato;
+	color: #fff
+	font-size:1.4rem;
+}
+
+
+/* Cerate page styles*/
+
+.form {
+	padding: 20px;
+	width: 50%;
+}
+
+.form-title {
+	padding: 20px;
+}
+
+.form > label {
+	display: block;
+	font-size: 1.3rem;
+	margin: 15px 0 5px 0;
+}
+
+.input {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	font-size: 1.3rem;
+}
+
+.btn {
+	display: inline-block;
+	background: tomato;
+	color: #fff;
+	font-size: 1.5rem;
+	padding: 10px 20px;
+	border: none;
 }
