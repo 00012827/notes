@@ -1,0 +1,7 @@
+extends layout.pug
+
+block content
+  main.content
+    h1 All notes
+    each note in notes
+      a.note(href='/notes/detail')= note

@@ -5,8 +5,9 @@ html
     link(rel='stylesheet' href='/static/main.css')
   body
     header.header
-      h1.logo Notes App
+      h1.logo 
+        a(href='/') Notes App
       nav.nav
-        a(href = '/all-notes ') All notes
+        a(href = '/notes ') notes
         a(href = '/archive ')  Archive
     block content

@@ -54,8 +54,12 @@ a:hover {
 	margin: 15px 0 0 20px;
 	padding: 10px 20px;
 	background: tomato;
-	color: #fff
+	color: #fff;
 	font-size:1.4rem;
+}
+
+.featured:hover {
+	color: #fff;
 }
 
 
@@ -90,4 +94,13 @@ a:hover {
 	font-size: 1.5rem;
 	padding: 10px 20px;
 	border: none;
+}
+
+/* notes page*/
+
+.note {
+	display: block;
+	padding: 10px;
+	font-size: 1.5rem;
+	border-bottom: 1px solid #ccc;
 }
