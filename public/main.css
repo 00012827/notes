@@ -122,3 +122,15 @@ a:hover {
 .delete:hover {
 	color: #fff;
 }
+
+.success {
+	margin-top: 20px;
+	display: inline-block;
+	margin-left: 20px;
+	padding: 10px;
+	border: 1px solid green;
+	color:green;
+	font-style: italic;
+	font-size: 1.2rem;
+
+}

@@ -1,10 +1,23 @@
-# Notes app 
+# Notes web application
 
-### this app will allow users to create , read, update their notes
+#### Description
+This web application allows user to add, edit, delete, notes
 
-### To start the app follow the instruyctuiions below
-
-1. Install dependencies 
+#### How to run app locally
+1.Download oe clone to application code 
 ```bash
-nmp install
+git clone [repositery link ]
 ```
+2.Install the dependencies 
+```bash
+npm install
+```
+3.Run the application 
+```bash
+node app.js 
+```
+##### Dependencies
+- express.js
+- pug.js
+
+##### Link to the source code 
